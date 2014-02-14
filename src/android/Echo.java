@@ -25,9 +25,14 @@ public class Echo extends CordovaPlugin {
                     callbackContext.success("Saying hello to " + message);
                 }
             });
+            
         }
         else if (action.equals("fail")) {
 		callbackContext.error("Just failing here");
         }
+        else {
+        	return false;
+        }
+        return true;
     }
 }
