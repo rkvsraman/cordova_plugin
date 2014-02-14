@@ -19,7 +19,6 @@
                     <param name="android-package" value="com.neevtech.cordova.Echo"/>
                 </feature>
             </config-file>
-            
-            <source-file src="src/android/Echo.java" target-dir=”src/com/neevtech/cordova” />
+            <source-file src="src/android/Echo.java" target-dir="src/com/neevtech/cordova" />
         </platform>
 </plugin>
